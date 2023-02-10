@@ -178,6 +178,7 @@
     height: 20px;
 }
 
+/*EXERCISE 12 ANIMATIONS*/
 .ex-12-top-white{
     animation-name: movement-two;
     animation-duration: 2s;
@@ -207,7 +208,7 @@
         top:100%;
     }
     55%{
-        left:50%;
+        left:55%;
         top:100%;
     }
     60%{
@@ -286,5 +287,64 @@
         left:60%;
         bottom:-15%;
     }
+}
 
+/*EXERCISE 13 ANIMATIONS*/
+
+.ex-13-top-white{
+    animation-name: rotate-complete-one;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate-complete-one {
+    0%{
+        top:-15%;
+        left:-10%;
+    }
+    25%{
+        top:-15%;
+        left:90%;
+    }
+    50%{
+        top:90%;
+        left:90%;
+    }
+    75%{
+        top:90%;
+        left:-10%;
+    }
+    100%{
+        top:-15%;
+        left:-10%;
+    }
+}
+
+.ex-13-bottom-white{
+    animation-name: rotate-complete-two;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate-complete-two {
+    0%{
+        bottom:-15%;
+        right:-10%;
+    }
+    25%{
+        bottom:-15%;
+        right:90%;
+    }
+    50%{
+        bottom:90%;
+        right:90%;
+    }
+    75%{
+        bottom:90%;
+        right:-10%;
+    }
+    100%{
+        bottom:-15%;
+        right:-10%;
+    }
 }

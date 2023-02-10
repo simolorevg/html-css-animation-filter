@@ -76,13 +76,26 @@
 }
 
 .ex-7-img{
-
+    transition: filter linear 0.5s;
 }
 
 
 .ex-7-img:hover{
-    filter:grayscale(1) blur(0.5);
+    filter:grayscale(1);
+    filter:invert(1);
 }
+
+
+.ex-8-img{
+    transition:filter linear 0.5s, border-radius linear 0.5s;
+}
+
+.ex-8-img:hover{
+    filter:invert(1);
+    filter:brightness(0.5);
+    border-radius:30px;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
